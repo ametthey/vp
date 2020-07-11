@@ -1,6 +1,6 @@
 <?php
 
-function test_menu() {
+function voxpopuli_menu() {
     register_nav_menus(
         array(
             'header-menu' => __( 'Header Menu' ),
@@ -8,6 +8,6 @@ function test_menu() {
         )
     );
 }
-add_action( 'init', 'test_menu' );
+add_action( 'init', 'voxpopuli_menu' );
 
 ?>
